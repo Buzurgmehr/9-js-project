@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #edf5e1;
+    color: white;
+    margin: 0;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.pw-container {
+    background-color: #05286b;
+    min-width: 400px;
+}
+
+.pw-header {
+    padding: 1rem;
+}
+
+.pw {
+    background-color: #094bc7;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.pw button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(0, 100%);
+    border: none;
+    color: #3373eb;
+    background-color: white;
+    padding: 0.25rem 1rem;
+    align-items: center;
+    margin-left: -30px;
+    margin-bottom: -5px;
+}
+
+.pw-body {
+    padding: 1rem;
+}
+
+.form-control {
+    color: #eee;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.75rem 0;
+}
+
+.generate {
+    background: #5cdb95;
+    border: none;
+    color: black;
+    display: block;
+    font-size: 2rem;
+    padding: 0.5rem;
+    width: 100%;
+    margin-top: 1rem;
+    font-weight: bolder;
+}
